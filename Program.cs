@@ -19,6 +19,8 @@ namespace ReadJsonFromApi
         public static string AskForJsonFile()
         {
         BEGIN:
+            Console.WriteLine("Any any key to start the program.");
+            Console.ReadKey();
             if (File.Exists("endpoints.json"))
             {
                 return "endpoints.json";
